@@ -1,0 +1,23 @@
+{
+  "name": "lets-chat-s3",
+  "version": "0.1.0",
+  "description": "S3 add-on for Let's Chat",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sdelements/lets-chat-s3.git"
+  },
+  "author": {
+    "name": "Simon Bartlett",
+    "email": "simon@sdelements.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sdelements/lets-chat-s3/issues"
+  },
+  "homepage": "https://github.com/sdelements/lets-chat-s3",
+  "dependencies": {
+    "knox": "^0.9.2"
+  },
+  "peerDependencies": {
+  }
+}

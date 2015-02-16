@@ -12,7 +12,7 @@ npm install lets-chat-s3
 
 Add (and customize) these settings to your ```settings.yml``` file:
 
-```
+```yml
 files:
   enable: true
   provider: s3

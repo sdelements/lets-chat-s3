@@ -1,6 +1,6 @@
 {
   "name": "lets-chat-s3",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "S3 add-on for Let's Chat",
   "main": "lib/index.js",
   "repository": {

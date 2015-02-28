@@ -10,6 +10,8 @@ npm install lets-chat-s3
 
 ### Configure
 
+##### YAML
+
 Add (and customize) these settings to your ```settings.yml``` file:
 
 ```yml
@@ -23,3 +25,16 @@ files:
     bucket: lets-chat
     region: us-west-2
 ```
+
+##### Environment Variables
+
+Alternatively, configure using environment variables:
+
+| YAML Path | Env Variable |
+|-----------|--------------|
+| files.enable | LCB_FILES_ENABLE |
+| files.provider | LCB_FILES_PROVIDER |
+| files.s3.accessKeyId | LCB_FILES_S3_ACCESS_KEY_ID |
+| files.s3.secretAccessKey | LCB_FILES_S3_SECRET_ACCESS_KEY |
+| files.s3.bucket | LCB_FILES_S3_BUCKET |
+| files.s3.region | LCB_FILES_S3_REGION |
